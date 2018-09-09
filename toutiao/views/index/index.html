@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>今日头条</title>
+    <link rel="shortcut icon" href="/assets/index/img/iphone-logo.png" type="image/x-icon">
+    <script src="/assets/index/js/rem.js"></script>
+    <link rel="stylesheet" href="/assets/index/css/toutiao.css">
+    <link rel="stylesheet" href="/assets/public/public.css">
+
+</head>
+<style>
+    li.active a {
+        color: red;
+    }
+
+</style>
+<body>
+<div class="main">
+    <div class="header">
+        <div class="abs-m">
+            <a href="#" class="refresh-title"></a>
+            <div class="refreshBtn-container">
+                <i class="refresh-btn"></i>
+            </div>
+        </div>
+        <div class="abs-l">
+            <a href="javascript:void (0)" class="msg-box">
+                <div class="circle"></div>
+            </a>
+        </div>
+        <div class="abs-r">
+            <a href="/index.php?c=page&m=search" class="search"></a>
+        </div>
+    </div>
+    <div class="body">
+        <div class="status-bar">
+            <div class="top-menu-more">
+                <div class="list-shadow"></div>
+                <a href="/index.php?c=page&m=category" class="more-btn">+</a>
+            </div>
+            <div class="top-menu-list">
+                <?php foreach ($category as $k => $v) { ?>
+                <li class='<?php echo $v['id'] == $cid?'active':'' ?>'>
+                <a href="/index.php?c=page&m=index&cid=<?php echo $v['id']?>" class="btn"><?php echo $v['name']?></a>
+                </li>
+                <?php } ?>
+            </div>
+        </div>
+        <div>
+            <div id="pageletListContent" class="feed-list-container">
+                <div class="list-content">
+                <?php foreach ( $news as $k => $v ) {?>
+                    <section class="has-action middle-mode ">
+                        <a href="<?php echo $v['url']?>" class="article-link">
+                            <div class="content">
+                                <div class="item-detail">
+                                    <h3 class="dotdot line3"><?php echo $v['title']?></h3>
+                                    <div class="item-info">
+                                        <div>
+                                            <span class="stick-label ">置顶</span>
+                                            <span class="src">央视网新闻</span>
+                                            <span class="cmt">
+                                                评论
+                                                52
+                                                <!--<span class="time">45分钟前</span>-->
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="list-img-holder">
+                                    <img src="<?php echo $v['image']?>" />
+                                </div>
+                            </div>
+                        </a>
+                    </section>
+                <?php } ?>
+
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+</body>
+</html>
