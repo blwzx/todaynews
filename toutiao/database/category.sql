@@ -34,7 +34,7 @@ CREATE TABLE IF NOT EXISTS `news_category` (
 ) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=9 ;
 
 --
--- 转存表中的数据 `news_category`
+-- 转存表中的数据 `news_category` q
 --
 
 INSERT INTO `news_category` (`id`, `name`, `is_default`) VALUES

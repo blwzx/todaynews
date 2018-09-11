@@ -16,9 +16,67 @@
     li.active a {
         color: red;
     }
+    hide{
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 1000;
+        background: rgba(0, 0, 0, 0.5);
+    }
+    .popup{
+        width: 540px;
+        height: 450px;
+        margin-left: -270px;
+        margin-top: -225px;
+        background: #fff;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        border-radius: 10px;
+    }
+    .banner{
+        width: 330px;
+        height: 242px;
+        margin-left: 108px;
+        margin-top: 20px;
+    }
+    .popup p{
+        margin-bottom: 48px;
+        margin-top: 12px;
+        font-size: 34px;
+        color: #a5a5a5;
+        line-height: 36px;
+    }
+    .popup-btn{
+        margin-top: 10px;
+        margin-bottom: 30px;
+        font-size: 40px;
+        line-height: 80px;
+        width: 440px;
+        margin-left: 50px;
+        background: #ff6762;
+        border-radius: 10px;
+        text-shadow: 0px 1px 1px #f0221c;
+        color: #fff;
+    }
+    .close{
+        width: 80px;
+        height: 64px;
+        background-size: 34px;
+        position: absolute;
+        right: 0;
+        top: 0;
+        background: url(https://s3.pstatp.com/growth/mobile_list/image/popup_banner_close_e6f62910.png
+
+        ) no-repeat center;
+    }
 
 </style>
 <body>
+
 <div class="main">
     <div class="header">
         <div class="abs-m">
@@ -27,13 +85,24 @@
                 <i class="refresh-btn"></i>
             </div>
         </div>
-        <div class="abs-l">
+
+        <div class="abs-l message">
             <a href="javascript:void (0)" class="msg-box">
                 <div class="circle"></div>
             </a>
         </div>
         <div class="abs-r">
             <a href="/index.php?c=page&m=search" class="search"></a>
+        </div>
+    </div>
+    <div class="hide">
+        <div class="popup">
+            <div class="banner">
+                <img src="/assets/index/img/hide-img.png" alt="">
+            </div>
+            <p>已加载好您感兴趣的头条</p>
+            <div class="popup-btn">立即打开</div>
+            <div class="close"></div>
         </div>
     </div>
     <div class="body">
@@ -84,7 +153,9 @@
         </div>
 
 
+
     </div>
 </div>
 </body>
 </html>
+<script src="/assets/index/js/index.js"></script>
