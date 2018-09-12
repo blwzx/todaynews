@@ -7,7 +7,7 @@ class wechat extends db{
         echo json_encode($feeds);
     }
     public function insert(){
-        $sql = 'insert into feed(user_name,user_avatar,content,publish_time,publish_address,img_urls) VALUES (?,?,?,?,?,?)';
+        $sql = 'insert into feed(user_name,user_avatar,content,publish_time,publist_address,img_urls) VALUES (?,?,?,?,?,?)';
         $stmt = $this->pdo->prepare($sql);
         $stmt->bindValue(1,$_GET['user_name']);
         $stmt->bindValue(2,$_GET['user_avatar']);
@@ -17,5 +17,6 @@ class wechat extends db{
         $stmt->bindValue(6,'2');
         echo $stmt ->execute();
     }
+
 
 }
