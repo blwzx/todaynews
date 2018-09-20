@@ -54,8 +54,8 @@
       <file leaf-file-name="wechat.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/controller/wechat/wechat.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="17" column="31" lean-forward="true" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+            <state relative-caret-position="552">
+              <caret line="81" column="36" lean-forward="true" selection-start-line="81" selection-start-column="36" selection-end-line="81" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -102,6 +102,8 @@
         <option value="$PROJECT_DIR$/views/index/2.html" />
         <option value="$PROJECT_DIR$/views/index/index.html" />
         <option value="$PROJECT_DIR$/web/assets/index/css/toutiao.css" />
+        <option value="$PROJECT_DIR$/../../Sorting.js" />
+        <option value="$PROJECT_DIR$/../../第一题/第一题.html" />
         <option value="$PROJECT_DIR$/controller/wechat/wechat.php" />
       </list>
     </option>
@@ -120,7 +122,7 @@
       <path value="$PROJECT_DIR$/task/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="252" />
     <option name="y" value="147" />
     <option name="width" value="1366" />
@@ -244,18 +246,20 @@
       <workItem from="1536414784992" duration="13653000" />
       <workItem from="1536464109337" duration="21699000" />
       <workItem from="1536711987775" duration="4337000" />
-      <workItem from="1536737863238" duration="5456000" />
+      <workItem from="1536737863238" duration="6577000" />
+      <workItem from="1537336302529" duration="629000" />
+      <workItem from="1537429001711" duration="221000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45145000" />
+    <option name="totallyTimeSpent" value="47116000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1050" extended-state="7" />
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.119635195" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.12285408" />
       <window_info anchor="bottom" id="TODO" order="13" />
       <window_info anchor="bottom" id="调试" order="5" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
@@ -267,15 +271,15 @@
       <window_info anchor="bottom" id="Terminal" order="6" />
       <window_info anchor="bottom" id="运行" order="2" />
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="8" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Run" order="9" />
-      <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="7" />
+      <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -290,8 +294,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/views/admin/new.html" />
-    <entry file="file://$PROJECT_DIR$/controller/admin/new.php" />
     <entry file="file://$PROJECT_DIR$/controller/admin/admin.php" />
     <entry file="file://$PROJECT_DIR$/../news/index.js" />
     <entry file="file://$PROJECT_DIR$/../news/wenzi/index.html" />
@@ -462,47 +464,28 @@
     <entry file="file://$PROJECT_DIR$/../../优秀的圈/优秀的圈/pages/me/me.wxml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://D:/Documents/Tencent Files/1049345539/FileRecv/第1题/第1题/第一题.js" />
+    <entry file="file://D:/Documents/Tencent Files/1049345539/FileRecv/第3题/第3题/第三题.js" />
+    <entry file="file://D:/Documents/Tencent Files/1049345539/FileRecv/第2题/第2题/第二题.js" />
+    <entry file="file://$PROJECT_DIR$/../../Sorting.js" />
+    <entry file="file://$PROJECT_DIR$/../../第一题/第一题.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-851">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/wechat.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Documents/Tencent Files/1049345539/FileRecv/第1题/第1题/第一题.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Documents/Tencent Files/1049345539/FileRecv/第3题/第3题/第三题.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Documents/Tencent Files/1049345539/FileRecv/第2题/第2题/第二题.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state relative-caret-position="92">
+          <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controller/wechat/wechat.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" column="31" lean-forward="true" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+        <state relative-caret-position="552">
+          <caret line="81" column="36" lean-forward="true" selection-start-line="81" selection-start-column="36" selection-end-line="81" selection-end-column="36" />
         </state>
       </provider>
     </entry>
